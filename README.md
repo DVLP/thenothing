@@ -59,9 +59,9 @@ const remove = makeCallback((event) => {
 Clone this repo and run ```npm start```
 
 ### Files
-  index.html - the starting point
-  nothing.js - the engine
-  todo.js - the app
+  - index.html - the starting point
+  - nothing.js - the engine
+  - todo.js - the app
 
 ## For lazy people
 [JSFiddle demo](https://jsfiddle.net/ay1mr80e/)
