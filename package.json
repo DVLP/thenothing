@@ -1,0 +1,27 @@
+{
+  "name": "thenothing",
+  "version": "0.0.0",
+  "description": "The Nothing",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DVLP/thenothing.git"
+  },
+  "keywords": [
+    "The",
+    "Nothing"
+  ],
+  "author": "Pawel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DVLP/thenothing/issues"
+  },
+  "homepage": "https://github.com/DVLP/thenothing#readme",
+  "dependencies": {
+    "http-server": "^13.0.1"
+  }
+}
