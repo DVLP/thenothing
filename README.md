@@ -56,12 +56,13 @@ const remove = makeCallback((event) => {
 ```
 
 ## Demo
+
 Clone this repo and run ```npm start```
+
+Or visit [The demo using the files listed below](https://dvlp.github.io/thenothing/)
+alternatively editable [JSFiddle demo](https://jsfiddle.net/ay1mr80e/)
 
 ### Files
   - index.html - the starting point
   - nothing.js - the engine
   - todo.js - the app
-
-## For lazy people
-[JSFiddle demo](https://jsfiddle.net/ay1mr80e/)
