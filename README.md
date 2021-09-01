@@ -47,7 +47,7 @@ const TodoItem = function () {
 }
 ```
 
-state.remove is a pointer to a callback passed by the parent, makeCallback is the crucial function exporing local handler so it can be accessed by the resulting HTML with it's native handler declaration attribute
+state.remove is a pointer to a callback passed by the parent. `makeCallback` is the crucial function exporting a local handler so it can be accessed by the resulting HTML with it's native handler declaration attribute
 
 ```javascript
 const remove = makeCallback((event) => {
