@@ -4,6 +4,28 @@ POC of a back-to-the-roots idea of building a website by writing crude HTML code
 
 The POC library in `nothing.js` only takes 50 lines of code and consists of `State`, `makeCallback` and `makeIterator`(for lists). There's no build step and there are no dependencies.
 
+## Usage
+
+TODO app:
+[Code Sandbox](https://codesandbox.io/s/todo-the-nothing-ihs6u?file=/src/todo.mjs:0-87)
+
+```javascript
+npm install thenothing
+
+// In index.mjs
+import { createNothing, makeCallback, makeIterator, makeRef, State } from 'thenothing'
+
+const BasicApp = function (parent) {
+  const state = new State({ title: 'The Nothing here', parent })
+  state.render = () => `<h1 style="font-family: sans-serif; color: #666;">${state.title}</h1>`
+  return state.getUpdater()
+}
+
+// assuming there's <div id="app"></div>
+createNothing(BasicApp, document.getElementById('app'))
+
+```
+
 ## Basic component with state
 
 ```javascript
