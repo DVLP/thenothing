@@ -66,7 +66,7 @@ export function makeRef () {
     current: null,
     virtual: null,
   }
-  refs[hash] = (element, virtual) => {
+  window.refs[hash] = (element, virtual) => {
     refObj.current = element
     refObj.virtual = virtual
   }
@@ -122,7 +122,7 @@ function deepMatchAndApply(node, nodeTarget, inRecursion) {
         if (attr.name === 'ref') {
           // console.log('saving ref', nodeTarget)
           const address = attrValue
-          window.refs[address](nodeTarget, node)
+          window.refs[address] && window.refs[address](nodeTarget, node)
         }
       })
     // }
