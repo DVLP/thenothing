@@ -1,8 +1,8 @@
 {
   "name": "thenothing",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "The Nothing",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/DVLP/thenothing#readme",
   "dependencies": {
-    "http-server": "^13.0.1"
+    "http-server": "^13.0.2"
   }
 }
